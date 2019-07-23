@@ -1,5 +1,5 @@
-a=int(input())
+a=input()
 s=-1
-for i in range(len(a)):
+for i in a:
      print(a[s],end="")
      s-=1
