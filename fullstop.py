@@ -1,2 +1,5 @@
 stl=input()
-print(stl+".")
+stl=list(stl)
+stl.append(".")
+stl="".join(stl)
+print(stl)
