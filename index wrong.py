@@ -4,5 +4,5 @@ for i in range(len(c)):
      d=c[i]
      if d==i:
           print(d,end=" ")
-else:
+if d!=i:
      print("-1")
