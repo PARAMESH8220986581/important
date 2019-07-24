@@ -6,7 +6,7 @@ for i in range(len(d)):
     d.pop(0)
     if f in d:
         d.append(f)
-        c='unigue'
-    else:
         c+=1
+    else:
+        c='unigue'
 print(c)
