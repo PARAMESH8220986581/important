@@ -1,9 +1,9 @@
 a=int(input())
 d=list(map(int,input().split()))
 for i in range(len(d)):
-    f=d[i]
-    d.pop(i)
+    f=d[0]
+    d.pop(0)
     if f in d:
-        d.insert(-1,f)
+        d.append(f)
     else:
         print(f)
